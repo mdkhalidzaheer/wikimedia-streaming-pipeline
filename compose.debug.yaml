@@ -1,0 +1,6 @@
+services:
+  wikimediastreamingpipeline:
+    image: wikimediastreamingpipeline
+    build:
+      context: .
+      dockerfile: ./Dockerfile
